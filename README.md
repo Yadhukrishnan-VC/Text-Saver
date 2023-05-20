@@ -66,7 +66,7 @@ API will display the snippet title, content, and timestamp information.
 ##### Update API
 API to update individual items. Update API should return item detail response.
 
-	Endpoint : http://localhost:8000/api/snippet/<snippet_id>/
+	Endpoint : http://localhost:8000/api/snippets-update/<snippet_id>/
 	Method : PUT
 	Data : title,snippets
 	Data Example : {
